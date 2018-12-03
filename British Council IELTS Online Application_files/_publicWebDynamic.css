@@ -1,0 +1,810 @@
+body {
+	margin: 0px auto; width: 930px; height: auto; text-align: center; color: rgb(0, 0, 0); line-height: 1.6em; font-family: arial, verdana, sans-serif; font-size: 75%;
+}
+.wrapper {
+	margin: 0px auto; padding: 10px; width: 910px; height: auto; text-align: left; position: relative;
+}
+@media print
+{
+.NonPrintableAssets {
+	display: none;
+}
+.buttonBox {
+	display: none;
+}
+.layoutTwoOneOneBlank {
+	display: none;
+}
+.footerBox {
+	display: none;
+}
+}
+@media screen
+{
+.PrintableAssets {
+	display: none;
+}
+}
+.BlueTitle {
+	color: rgb(11, 131, 148); font-size: 18pt;
+}
+.BlueSubTitle {
+	color: rgb(11, 131, 148); font-size: 16pt;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+.dropdown {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 208px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.dropdownShort {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 80px; font-family: arial, verdana, sans-serif; font-size: 8pt; margin-right: 5px;
+}
+.dropdownLong {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 288px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.textBox {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 200px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.textBoxLong {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 400px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.textBoxShort {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 125px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.textBoxVeryShort {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 40px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.textBoxVeryLong {
+	padding: 3px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 573px; font-family: arial, verdana, sans-serif; font-size: 8pt;
+}
+.errorSummaryBox {
+	border: 1px solid rgb(221, 60, 16); border-image: none; width: 100%; height: auto; padding-top: 10px; margin-top: 5px; margin-bottom: 10px; background-color: rgb(255, 242, 240);
+}
+.errorStar {
+	padding-left: 5px; font-size: 1.4em; font-style: normal; font-weight: bold;
+}
+.errorStarSquashed {
+	color: red; padding-left: 5px; font-size: 1.4em; font-style: normal; font-weight: bold; position: absolute;
+}
+.textHighlight {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+.space2 {
+	width: auto; height: 2px;
+}
+.space5 {
+	width: auto; height: 5px;
+}
+.space7 {
+	width: auto; height: 7px;
+}
+.space10 {
+	width: auto; height: 10px;
+}
+.space20 {
+	width: auto; height: 20px;
+}
+.space30 {
+	width: auto; height: 30px;
+}
+.space40 {
+	width: auto; height: 40px;
+}
+.hidden {
+	display: none;
+}
+.sepLine {
+	width: auto; height: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.inputLabel {
+	padding-right: 10px; padding-bottom: 3px; font-style: italic;
+}
+.inputLabelInline {
+	padding-right: 10px; padding-bottom: 3px; padding-left: 10px; font-style: italic;
+}
+.inputBankLabel {
+	width: 100px; font-style: italic; float: left;
+}
+.inputBankText {
+	float: left;
+}
+.headerImageBox {
+	width: 910px; height: 60px; padding-bottom: 5px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.mainContentRoundedTop {
+	width: 910px; height: 10px; display: block;
+}
+@media print
+{
+.mainContentBody {
+	padding: 10px; display: block;
+}
+}
+@media screen
+{
+.mainContentBody {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; display: block;
+}
+}
+.mainContentRoundedBottom {
+	width: 910px; height: 10px;
+}
+.advertRow {
+	width: 888px; height: 145px;
+}
+.advertLeft {
+	height: 145px; padding-right: 12px; float: left;
+}
+.advertCentre {
+	padding-right: 12px; float: left;
+}
+.advertRight {
+	float: right;
+}
+.advertText {
+	width: 170px; line-height: 1.2em; margin-top: -80px; margin-left: 98px; position: inherit;
+}
+.advertClickHere {
+	color: rgb(11, 131, 148); padding-top: 5px; font-weight: bold;
+}
+.advertClickHere a {
+	color: rgb(11, 131, 148); font-weight: bold; text-decoration: underline;
+}
+.advertClickHere a:hover {
+	color: rgb(11, 131, 148); font-weight: bold; text-decoration: none;
+}
+.linkBlue {
+	color: rgb(11, 131, 148); padding-bottom: 5px; font-weight: normal;
+}
+.linkBlue a {
+	color: rgb(11, 131, 148); font-weight: normal; text-decoration: underline;
+}
+.linkBlue a:hover {
+	color: rgb(11, 131, 148); font-weight: normal; text-decoration: none;
+}
+.linkBlueBold {
+	color: rgb(11, 131, 148); padding-bottom: 5px; font-weight: bold;
+}
+.linkBlueBold a {
+	color: rgb(11, 131, 148); font-weight: bold; text-decoration: underline;
+}
+.linkBlueBold a:hover {
+	color: rgb(11, 131, 148); font-weight: bold; text-decoration: none;
+}
+.linkBlueBoldNoGap {
+	color: rgb(11, 131, 148); font-weight: bold;
+}
+.linkBlueBoldNoGap a {
+	color: rgb(11, 131, 148); font-weight: bold; text-decoration: underline;
+}
+.linkBlueBoldNoGap a:hover {
+	color: rgb(11, 131, 148); font-weight: bold; text-decoration: none;
+}
+.linkBlueNoGap {
+	color: rgb(11, 131, 148); font-weight: normal;
+}
+.linkBlueNoGap a {
+	color: rgb(11, 131, 148); font-weight: normal; text-decoration: underline;
+}
+.linkBlueNoGap a:hover {
+	color: rgb(11, 131, 148); font-weight: normal; text-decoration: none;
+}
+.officeDetailBox {
+	width: 430px; height: auto; line-height: 1.6em;
+}
+.officeDetailBoxLabel {
+	width: 120px; float: left;
+}
+.officeDetailBoxValue {
+	width: 290px; float: right;
+}
+.tandcBody {
+	width: 100%; height: auto; padding-bottom: 10px;
+}
+.tandTitle {
+	font-weight: bold;
+}
+.layout {
+	width: 100%; height: auto;
+}
+.layoutFull {
+	width: 100%; height: auto;
+}
+.layoutOneTwoOne {
+	padding: 10px; width: 266px; height: auto; float: left; background-color: rgb(255, 255, 255);
+}
+.layoutOneTwoOneWhiteBorder {
+	padding: 10px; width: 266px; height: auto; float: left; background-color: rgb(255, 255, 255);
+}
+.layoutOneTwoOne {
+	border: 1px solid rgb(102, 102, 102); border-image: none;
+}
+.layoutOneTwoOneWhiteBorder {
+	border: 1px solid rgb(255, 255, 255); border-image: none;
+}
+.layoutOneTwoTwo {
+	padding: 10px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 566px; height: auto; float: right; background-color: rgb(255, 255, 255);
+}
+.layoutTwoOneTwo {
+	padding: 10px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 566px; height: auto; float: left; background-color: rgb(255, 255, 255);
+}
+.layoutTwoOneOne {
+	padding: 10px; border: 1px solid rgb(102, 102, 102); border-image: none; width: 266px; height: auto; float: right; background-color: rgb(255, 255, 255);
+}
+.layoutTwoOneOneBlank {
+	padding: 10px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 266px; height: auto; float: right; background-color: rgb(255, 255, 255);
+}
+.layoutBox {
+	width: 566px;
+}
+.buttonBox {
+	width: 100%; height: auto; text-align: left;
+}
+.linkPadding {
+	line-height: 1.2em; margin-left: 10px;
+}
+.inputControlsBox {
+	width: 100%; height: auto; margin-left: 10px;
+}
+.inputControlsPadding {
+	width: 100%; height: auto;
+}
+.layoutTwoContentBox {
+	width: 550px; padding-left: 10px; background-color: rgb(255, 255, 255);
+}
+.layoutSubTitle {
+	color: rgb(102, 102, 102); padding-bottom: 20px; font-weight: bold;
+}
+.ConnfirmationURNBox {
+	width: 100%; height: auto; text-align: center; line-height: 1.2em; padding-top: 10px; padding-bottom: 10px; margin-top: 10px; margin-bottom: 10px; background-color: rgb(238, 239, 255);
+}
+.RegMessage {
+	padding: 10px; border: 1px solid rgb(238, 239, 255); border-image: none; width: 538px; height: auto; background-color: rgb(255, 255, 255);
+}
+.RegMessageImage {
+	width: 80px; height: auto; float: left;
+}
+.RegMessageText {
+	width: 458px; height: auto; float: left;
+}
+.RegMessageTextTitle {
+	width: 100%; padding-bottom: 3px; font-weight: bold;
+}
+.RegMessageTextBody {
+	width: 100%; line-height: 1.6em;
+}
+.RegMessageTextBody p {
+	width: 100%; line-height: 1.6em;
+}
+.linksBox {
+	padding: 10px; width: 520px; height: auto; line-height: 1.2em; margin-top: 20px; margin-bottom: 20px; background-color: rgb(238, 239, 255);
+}
+.linksBoxLinks {
+	width: 398px;
+}
+.linksBoxNarrow {
+	padding: 10px; width: 246px; height: auto; line-height: 1.2em; margin-top: 20px; margin-bottom: 20px; background-color: rgb(238, 239, 255);
+}
+.linksBoxLinksNarrow {
+	width: 226px;
+}
+.linksBoxFull {
+	padding: 10px; width: 868px; height: auto; line-height: 1.2em; margin-top: 10px; margin-bottom: 10px; background-color: rgb(238, 239, 255);
+}
+.highlightImageBoxLeft {
+	padding: 10px; width: 540px; height: auto; line-height: 1.2em; margin-top: 20px; margin-bottom: 20px; background-color: rgb(255, 255, 255);
+}
+.highlightImageBoxLeftImage {
+	border: 2px solid rgb(204, 204, 204); border-image: none; width: 100px; height: 100px; float: left;
+}
+.highlightImageBoxLeftText {
+	width: 410px; height: auto; margin-left: 10px; float: left;
+}
+.highlightImageBoxBlueLeft {
+	padding: 10px; width: 540px; height: auto; line-height: 1.2em; margin-top: 20px; margin-bottom: 20px; background-color: rgb(238, 239, 255);
+}
+.highlightImageBoxBlueLeftImage {
+	border: 2px solid rgb(255, 255, 255); border-image: none; width: 100px; height: 100px; float: left;
+}
+.highlightImageBoxBlueLeftText {
+	width: 410px; height: auto; margin-left: 10px; float: left;
+}
+.highlightImageBoxRight {
+	padding: 10px; width: 540px; height: auto; line-height: 1.2em; margin-top: 10px; margin-bottom: 20px; background-color: rgb(255, 255, 255);
+}
+.highlightImageBoxRightImage {
+	border: 2px solid rgb(204, 204, 204); border-image: none; width: 100px; height: 100px; float: right;
+}
+.highlightImageBoxRightText {
+	width: 410px; height: auto; margin-right: 10px; float: left;
+}
+.highlightMapImageBoxRight {
+	padding: 10px; width: 840px; height: auto; line-height: 1.2em; margin-top: 10px; margin-bottom: 20px; background-color: rgb(255, 255, 255);
+}
+.highlightMapImageBoxRightImage {
+	border: 2px solid rgb(204, 204, 204); border-image: none; float: right;
+}
+.highlightMapImageBoxRightText {
+	width: 410px; height: auto; margin-right: 10px; float: left;
+}
+.highlightImageBoxBlueRight {
+	padding: 10px; width: 540px; height: auto; line-height: 1.2em; margin-top: 20px; margin-bottom: 20px; background-color: rgb(238, 239, 255);
+}
+.highlightImageBoxBlueRightImage {
+	border: 2px solid rgb(255, 255, 255); border-image: none; width: 100px; height: 100px; float: right;
+}
+.highlightImageBoxBlueRightText {
+	width: 410px; height: auto; margin-right: 10px; float: left;
+}
+.SearchAgainBox {
+	border: 1px solid rgb(238, 239, 255); border-image: none; width: 886px; height: auto; background-color: rgb(255, 255, 255);
+}
+.SearchAgainBoxFields {
+	padding: 10px; float: left;
+}
+.SearchAgainBoxButton {
+	padding: 10px; float: right;
+}
+.newsItemBox {
+	width: 100%; height: auto; padding-bottom: 20px;
+}
+.newsItemDate {
+	color: rgb(102, 102, 102); padding-bottom: 5px; font-weight: normal;
+}
+.newsItemTitleHighlight {
+	font-weight: bold;
+}
+.footerBox {
+	width: 100%; height: auto; background-color: rgb(255, 255, 255);
+}
+.footerBoxLeft {
+	width: 70%; text-align: left; color: gray; font-size: 8pt; float: left;
+}
+.footerBoxRight {
+	width: 50px; text-align: right; float: right;
+}
+.stepsBoxOuter {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 888px; height: auto; font-size: 8pt; margin-bottom: 10px; background-color: rgb(238, 239, 255);
+}
+.stepsBox {
+	width: 100%; height: 26px;
+}
+.stepItemImage {
+	width: 27px; height: 27px; float: left;
+}
+.stepItemComplete {
+	width: 95px; color: rgb(51, 51, 51); padding-right: 15px; padding-left: 9px; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.stepItem {
+	width: 95px; color: rgb(51, 51, 51); padding-right: 15px; padding-left: 9px; border-bottom-color: rgb(238, 239, 255); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.stepItem p {
+	margin: 0px; line-height: 26px;
+}
+.stepItemComplete p {
+	margin: 0px; line-height: 26px;
+}
+.searchCriteriaOuter {
+	padding: 10px; width: 868px; background-color: rgb(238, 239, 255);
+}
+.searchCriteriaBox {
+	width: 868px; height: auto;
+}
+.searchCriteriaBoxCriteria {
+	width: 800px; height: auto; float: left;
+}
+.searchCriteriaBoxCriteriaLabel {
+	color: rgb(0, 0, 0); padding-right: 2px; font-weight: normal;
+}
+.searchCriteriaBoxCriteriaValue {
+	color: rgb(0, 0, 0); padding-right: 20px; font-weight: bold;
+}
+.searchCriteriaBoxSearchLink {
+	width: 168px; height: auto; text-align: right; float: right;
+}
+.searchagainLinkBlue {
+	color: rgb(11, 131, 148); font-weight: normal;
+}
+.searchagainlinkBlue a {
+	color: rgb(11, 131, 148); font-weight: normal; text-decoration: underline;
+}
+.searchagainlinkBlue a:hover {
+	color: rgb(11, 131, 148); font-weight: normal; text-decoration: none;
+}
+.instructionsList {
+	margin: 0px 0px 0px 20px; padding: 6px; line-height: 1.4em; list-style-type: square; list-style-position: outside;
+}
+.instructionsListInner {
+	margin: 0px 0px 0px 20px; padding: 6px; line-height: 1.4em; list-style-type: lower-roman; list-style-position: outside;
+}
+.instructionsListItem {
+	padding-bottom: 5px;
+}
+.pnlHeaderBoxOuter {
+	padding: 10px; width: 868px; color: rgb(0, 0, 0); background-color: rgb(198, 201, 252);
+}
+.pnlHeaderBox {
+	width: 868px; height: auto;
+}
+.pnlHeaderBox p {
+	line-height: 16px;
+}
+.pnlHeaderBoxLeft {
+	width: 700px; height: auto; float: left;
+}
+.pnlHeaderBoxRight {
+	width: 168px; height: auto; text-align: right; float: right;
+}
+.pnlBodyOuter {
+	padding: 10px; border: 1px solid rgb(198, 201, 252); border-image: none; width: 866px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.pnlBodyBody {
+	width: 866px; height: auto;
+}
+.pnlBodyDetailHeaderBoxOuter {
+	padding: 10px; width: 846px; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(136, 136, 187);
+}
+.pnlBodyDetailHeaderBox {
+	width: 846px; height: auto;
+}
+.pnlBodyDetailHeaderBoxLeftCol {
+	width: 186px; float: left;
+}
+.pnlBodyDetailHeaderBoxRightCol {
+	width: 100px; text-align: right; float: right;
+}
+.pnlBodyDetailRowBoxOuter {
+	padding: 10px; border: 1px solid rgb(136, 136, 187); border-image: none; width: 844px; height: auto; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.pnlBodyDetailRowBox {
+	width: 844px; height: auto; line-height: 24px; padding-bottom: 2px;
+}
+.pnlBodyDetailRowBoxLeft {
+	width: 186px; padding-top: 3px; float: left;
+}
+.pnlBodyDetailRowBoxRight {
+	width: 100px; text-align: right; float: right;
+}
+.dataInputBox {
+	width: 100%; height: auto; padding-bottom: 5px;
+}
+.dataInputLabel {
+	width: 265px; height: auto; padding-top: 4px; font-style: italic; float: left;
+}
+.dataInputField {
+	width: 583px; height: auto; float: right;
+}
+.dataInputFieldNotes {
+	color: rgb(102, 102, 102); padding-top: 4px; padding-bottom: 5px;
+}
+.QuickSearchTitle {
+	color: rgb(102, 102, 102); padding-bottom: 10px; font-weight: bold;
+}
+.titleWithImageBox {
+	width: 100%; height: auto;
+}
+.titleWithImageBoxTitle {
+	width: 80%; text-align: left; float: left;
+}
+.titleWithImageBoxImage {
+	width: 20%; text-align: right; float: right;
+}
+.RoadToIELTSList {
+	margin: 5px; padding-left: 20px; display: block; list-style-position: outside;
+}
+.RoadToIELTSList li {
+	padding-left: 5px; list-style-type: disc;
+}
+.preload1 {
+	background: url("../Images/Menu/blank_over.gif");
+}
+.preload2 {
+	background: url("../Images/Menu/blank_overa.gif");
+}
+.menu2 {
+	list-style: none; margin: 0px; padding: 0px; height: 36px; font-family: arial, verdana, sans-serif; position: relative; z-index: 500; background-image: url("../Images/Menu/blankbackground.gif");
+}
+.menu2 li.top {
+	float: left; display: block;
+}
+.menu2 li a.top_link {
+	background: url("../Images/Menu/blank.gif"); padding: 0px 0px 0px 12px; height: 36px; color: rgb(204, 204, 204); line-height: 27px; font-size: 11px; font-weight: bold; text-decoration: none; float: left; display: block; cursor: pointer;
+}
+.menu2 li a.top_link span {
+	background: url("../Images/Menu/blank.gif") right top; padding: 0px 24px 0px 12px; height: 36px; float: left; display: block;
+}
+.menu2 li a.top_link span.down {
+	background: url("../Images/Menu/blanka.gif") no-repeat right top; padding: 0px 24px 0px 12px; height: 36px; float: left; display: block;
+}
+.menu2 li a.top_link:hover {
+	background: url("../Images/Menu/blank_over.gif") no-repeat; color: rgb(255, 255, 255);
+}
+.menu2 li a.top_link:hover span {
+	background: url("../Images/Menu/blank_over.gif") no-repeat right top;
+}
+.menu2 li a.top_link:hover span.down {
+	background: url("../Images/Menu/blank_overa.gif") no-repeat right top;
+}
+.menu2 li:hover > a.top_link {
+	background: url("../Images/Menu/blank_over.gif") no-repeat; color: rgb(255, 255, 255);
+}
+.menu2 li:hover > a.top_link span {
+	background: url("../Images/Menu/blank_over.gif") no-repeat right top;
+}
+.menu2 li:hover > a.top_link span.down {
+	background: url("../Images/Menu/blank_overa.gif") no-repeat right top;
+}
+.menu2 table {
+	left: 0px; top: 0px; width: 0px; height: 0px; border-collapse: collapse; position: absolute;
+}
+.menu2 a:hover {
+	visibility: visible; position: relative; z-index: 200;
+}
+.menu2 li:hover {
+	position: relative; z-index: 200;
+}
+.menu2 ul {
+	list-style: none; margin: 0px; padding: 0px; left: -9999px; top: -9999px; width: 0px; height: 0px; position: absolute;
+}
+.menu2 :hover ul ul {
+	list-style: none; margin: 0px; padding: 0px; left: -9999px; top: -9999px; width: 0px; height: 0px; position: absolute;
+}
+.menu2 :hover ul :hover ul ul {
+	list-style: none; margin: 0px; padding: 0px; left: -9999px; top: -9999px; width: 0px; height: 0px; position: absolute;
+}
+.menu2 :hover ul :hover ul :hover ul ul {
+	list-style: none; margin: 0px; padding: 0px; left: -9999px; top: -9999px; width: 0px; height: 0px; position: absolute;
+}
+.menu2 :hover ul :hover ul :hover ul :hover ul ul {
+	list-style: none; margin: 0px; padding: 0px; left: -9999px; top: -9999px; width: 0px; height: 0px; position: absolute;
+}
+.menu2 :hover ul.sub {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(58, 147, 210); border-image: none; left: 0px; top: 31px; width: 90px; height: auto; white-space: nowrap; z-index: 300;
+}
+.menu2 :hover ul.sub li {
+	width: 90px; height: 20px; font-weight: normal; float: left; display: block; position: relative;
+}
+.menu2 :hover ul.sub li a {
+	width: 90px; height: 20px; color: rgb(0, 0, 0); line-height: 20px; text-indent: 5px; font-size: 11px; text-decoration: none; display: block;
+}
+.menu2 :hover ul.sub li a.fly {
+	background: url("../Images/Menu/arrow.gif") no-repeat 80px 7px rgb(255, 255, 255);
+}
+.menu2 :hover ul.sub li a:hover {
+	background: rgb(58, 147, 210); color: rgb(255, 255, 255);
+}
+.menu2 :hover ul.sub li a.fly:hover {
+	background: url("../Images/Menu/arrow_over.gif") no-repeat 80px 7px rgb(58, 147, 210); color: rgb(255, 255, 255);
+}
+.menu2 :hover ul li:hover > a.fly {
+	background: url("../Images/Menu/arrow_over.gif") no-repeat 80px 7px rgb(58, 147, 210); color: rgb(255, 255, 255);
+}
+.menu2 :hover ul :hover ul {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(58, 147, 210); border-image: none; left: 90px; top: -4px; width: 90px; height: auto; white-space: nowrap; z-index: 400;
+}
+.menu2 :hover ul :hover ul :hover ul {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(58, 147, 210); border-image: none; left: 90px; top: -4px; width: 90px; height: auto; white-space: nowrap; z-index: 400;
+}
+.menu2 :hover ul :hover ul :hover ul :hover ul {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(58, 147, 210); border-image: none; left: 90px; top: -4px; width: 90px; height: auto; white-space: nowrap; z-index: 400;
+}
+.menu2 :hover ul :hover ul :hover ul :hover ul :hover ul {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(58, 147, 210); border-image: none; left: 90px; top: -4px; width: 90px; height: auto; white-space: nowrap; z-index: 400;
+}
+.liGenericInfoItem {
+	margin-bottom: 0.8em;
+}
+.noticeSummaryBox {
+	padding: 10px 5px; width: auto; height: auto; margin-top: 5px; margin-bottom: 10px;
+}
+.errorSummaryBox {
+	padding: 10px 5px; width: auto; height: auto; margin-top: 5px; margin-bottom: 10px;
+}
+.successSummaryBox {
+	padding: 10px 5px; width: auto; height: auto; margin-top: 5px; margin-bottom: 10px;
+}
+.noticeSummaryBox {
+	border: 1px solid rgb(255, 211, 36); border-image: none; color: rgb(81, 71, 33); background-color: rgb(255, 246, 191);
+}
+.errorSummaryBox {
+	border: 1px solid rgb(221, 60, 16); border-image: none; color: rgb(133, 37, 11); background-color: rgb(255, 242, 240);
+}
+.successSummaryBox {
+	border: 1px solid rgb(198, 216, 128); border-image: none; color: rgb(38, 68, 9); background-color: rgb(230, 239, 194);
+}
+.noticeSummaryBoxTitle {
+	padding: 10px 0px; width: auto; height: auto; font-size: 11pt; font-weight: bold; margin-top: 5px; margin-bottom: 5px;
+}
+.errorSummaryBoxTitle {
+	padding: 10px 0px; width: auto; height: auto; font-size: 11pt; font-weight: bold; margin-top: 5px; margin-bottom: 5px;
+}
+.successSummaryBoxTitle {
+	padding: 10px 0px; width: auto; height: auto; font-size: 11pt; font-weight: bold; margin-top: 5px; margin-bottom: 5px;
+}
+.noticeSummaryBoxTitle {
+	
+}
+.errorSummaryBoxTitle {
+	
+}
+.successSummaryBoxTitle {
+	
+}
+.errorStar {
+	color: red; padding-left: 5px; font-size: 1.4em; font-style: normal; font-weight: bold;
+}
+.requiredStar {
+	color: red; padding-left: 5px; font-size: 1.4em; font-style: normal; font-weight: bold;
+}
+.errorStarSquashed {
+	color: red; padding-left: 5px; font-size: 1.4em; font-style: normal; font-weight: bold; position: absolute;
+}
+.linksBoxFullSearchResults {
+	padding: 10px; width: 95%; height: auto; line-height: 1.2em; font-size: larger; margin-top: 10px; margin-bottom: 10px; background-color: rgb(238, 239, 255);
+}
+.linksBoxFullResults {
+	padding: 10px 20px 10px 10px; width: 95%; height: auto; line-height: 1.2em; font-size: larger; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(238, 239, 255);
+}
+.layoutTwoContentBoxResults {
+	padding: 0px 10px 10px 0px; margin-left: 15px; background-color: rgb(255, 255, 255);
+}
+.layoutOneTwoOneResults {
+	width: 40%; height: auto; float: left;
+}
+.layoutOneTwoTwoResults {
+	width: 40%; height: auto; float: left;
+}
+.pnlInfoWindowMap {
+	padding: 10px; width: 575px; height: auto; text-align: left;
+}
+.pnlHeaderBoxOuterMap {
+	padding: 10px; width: 570px; color: rgb(0, 0, 0); background-color: rgb(198, 201, 252);
+}
+.pnlHeaderBoxMap {
+	width: 570px; height: auto;
+}
+.pnlHeaderBoxMap p {
+	line-height: 16px;
+}
+.pnlHeaderBoxLeftMap {
+	width: 520px; height: auto; float: left;
+}
+.pnlHeaderBoxRightMap {
+	width: 68px; height: auto; text-align: right; float: right;
+}
+.pnlBodyOuterMap {
+	padding: 10px; border: 1px solid rgb(198, 201, 252); border-image: none; width: 568px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.pnlBodyBodyMap {
+	width: 568px; height: auto;
+}
+.pnlBodyDetailHeaderBoxOuterMap {
+	padding: 10px; width: 546px; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(136, 136, 187);
+}
+.pnlBodyDetailHeaderBoxMap {
+	width: 546px; height: auto;
+}
+.pnlBodyDetailHeaderBoxLeftMapCol {
+	width: 130px; float: left;
+}
+.pnlBodyDetailHeaderBoxRightMapCol {
+	width: 125px; text-align: right; float: right;
+}
+.pnlBodyDetailRowBoxOuterMap {
+	padding: 10px; border: 1px solid rgb(136, 136, 187); border-image: none; width: 544px; height: auto; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.pnlBodyDetailRowBoxMap {
+	width: 544px; height: auto; line-height: 24px; padding-bottom: 2px;
+}
+.pnlBodyDetailRowBoxLeftMap {
+	width: 130px; padding-top: 3px; float: left;
+}
+.pnlBodyDetailRowBoxRightMap {
+	width: 80px; text-align: right; float: right;
+}
+.pnlInfoWindowMapNoExam {
+	padding: 10px; width: 200px; height: auto; text-align: left;
+}
+.pnlHeaderBoxOuterMapNoExam {
+	padding: 10px; width: 190px; color: rgb(0, 0, 0); background-color: rgb(198, 201, 252);
+}
+.pnlHeaderBoxMapNoExam {
+	width: 190px; height: auto;
+}
+.pnlHeaderBoxLeftMapNoExam {
+	width: 180px; height: auto; float: left;
+}
+.pnlHeaderBoxRightMapNoExam {
+	width: 68px; height: auto; text-align: right; float: right;
+}
+.pnlBodyOuterMapNoExam {
+	padding: 10px; border: 1px solid rgb(198, 201, 252); border-image: none; width: 188px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.pnlBodyBodyMapNoExam {
+	width: 188px; height: auto;
+}
+.pnlBodyDetailRowBoxLeftMapNoExam {
+	width: 180px; padding-top: 3px; float: left;
+}
+.CandidateDetailWrapper {
+	margin: 10px; height: 530px; overflow: auto; font-family: Tahoma; font-size: 8pt;
+}
+.CandidateDetailWrapper .DetailRow {
+	padding: 2px; width: 98%;
+}
+.CandidateDetailWrapper .DetailRow .DetailColumnHeader {
+	width: 15%; font-weight: bold; margin-right: 2px; float: left;
+}
+.CandidateDetailWrapper .DetailRow .DetailColumnPointer {
+	width: 15px; padding-left: 2px; font-weight: bold; margin-right: 2px; float: left;
+}
+.CandidateDetailWrapper .DetailRow .DetailColumnMedium {
+	width: 15%; margin-right: 2px; float: left;
+}
+.CandidateDetailWrapper .DetailRow .OtherFieldLabel {
+	width: 9%; padding-top: 3px; padding-left: 5px; float: left;
+}
+.dataInputBox {
+	width: 100%; height: auto; padding-bottom: 5px; min-height: 20px;
+}
+.dataInputBox2ppl {
+	width: 48%; height: auto; margin-right: 3px; float: left; display: inline-block;
+}
+.CandPortalDetailBox {
+	width: 48%; height: auto; line-height: 1.6em;
+}
+.CandPortalBoxLabel {
+	width: 50%; font-weight: bold; float: left;
+}
+.CandPortalBoxValue {
+	width: 50%; float: right;
+}
+.CandPortalSpeakingTest {
+	width: 200px; float: right;
+}
+.CandPortalUploadLabel {
+	width: 33%; font-weight: bold; float: left;
+}
+.CandPortalUploadDescription {
+	width: 66% !important; float: left; -ms-word-wrap: break-word;
+}
+.CandPortalActionButton {
+	width: 60px; float: right;
+}
+.CandPortalHeaderWelcome {
+	font-size: 14px; font-weight: bold;
+}
+.CandPortalHeaderLabel {
+	font-weight: bold;
+}
+.CandPortalHeaderValue {
+	font-weight: normal;
+}
+.dataInputLabelReport {
+	width: 35%; height: auto; text-align: right; padding-top: 0px; padding-bottom: 7px; font-weight: bold; float: left;
+}
+.td {
+	text-align: left;
+}
+table.ukvitable {
+	font-family: arial, verdana, sans-serif; font-size: 9pt; border-top-color: black; border-left-color: black; border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+tr.ukvitable {
+	vertical-align: text-top;
+}
+td.ukvitable {
+	border-right-color: black; border-bottom-color: black; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.payment-provider-wrapper {
+	width: 100%; overflow: hidden;
+}
+.payment-provider-col-right {
+	width: 85%; overflow: hidden; padding-bottom: 20em; margin-right: -1px; margin-bottom: -20em;
+}
+.payment-provider-col-left {
+	width: 5%; padding-top: 15px; padding-bottom: 20em; font-size: 14px; font-weight: bold; margin-bottom: -20em; float: left;
+}
